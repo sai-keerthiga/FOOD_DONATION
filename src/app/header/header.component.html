@@ -1,0 +1,99 @@
+<header>
+  <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#home">Connecting Hearts Through Food</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#donation">Donations</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#mission-id">Missions</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/contact">Login/Signup</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </div>
+</header>
+<style>
+  .cookies-dialog {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+    padding: 20px;
+    max-width: 300px; /* Adjusted max width */
+    width: 90%; /* Responsive width */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Added transition for smoother appearance */
+    z-index: 999;
+  }
+  
+  .cookies-dialog.active {
+    transform: translateY(0); /* Slide-in effect */
+    opacity: 1; /* Fade-in effect */
+  }
+  
+  .cookies-content {
+    text-align: center;
+  }
+  
+  .cookies-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333333; /* Darkened text color for better readability */
+  }
+  
+  .cookies-content p {
+    margin-bottom: 15px;
+    color: #555555; /* Adjusted text color */
+  }
+  
+  .cookies-content a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .cookies-content button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .cookies-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+</style>
+
+<div class="cookies-dialog" id="cookiesDialog1">
+  <div class="cookies-content">
+    <h2>🍪 Cookies</h2>
+    <p>We use cookies to ensure you get the best experience on our website. By continuing, you agree to our <a href="#">cookies policy</a>.</p>
+    <button class="acceptButton" (click)="hideDialog()">Accept</button>
+  </div>
+</div>
+
+

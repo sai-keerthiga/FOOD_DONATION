@@ -1,0 +1,231 @@
+.cont-sec {
+    padding: 8px;
+    background-color: #444; /* Dark background color */
+    width: 100%;
+}
+
+.cont-sec .contact-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-sec p {
+    margin: 0;
+    text-decoration:whitesmoke
+}
+
+.cont-sec p a {
+    text-decoration: none;
+    color: #AAA; /* Light grey color */
+}
+
+.cont-sec .social {
+    text-align: right;
+}
+
+.cont-sec .social a img {
+    width: 20px;
+    margin-left: 15px;
+}
+/* Home section styles */
+.home-sec {
+    padding: 80px 0; /* Adjusted padding */
+}
+
+.home-sec .home-content h1 {
+    font-size: 2rem; /* Reduced font size */
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.home-sec .home-content h2 span {
+    color: #555; /* Dark grey color */
+}
+
+.home-sec .home-content h2 {
+    font-size: 1.5rem; /* Reduced font size */
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.home-sec .home-content p {
+    font-size: 1.1rem; /* Reduced font size */
+    margin-bottom: 30px;
+    color: #0b0a0a; /* Light grey color */
+}
+
+.home-sec .img-sec {
+    display: flex;
+    justify-content: center; /* Center align images horizontally */
+    align-items: center; /* Center align images vertically */
+    margin-top: 30px; /* Adjusted margin top */
+}
+
+.home-sec .img-sec img {
+    width: 350px; /* Reduced image width */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #666; /* Dark border */
+}
+
+/* About section styles */
+.about-sec {
+    padding: 100px 0; /* Adjusted padding */
+    background-color:#F5F5DC; /* Dark grey background color */
+}
+.heading h2,p{
+    
+    color:#1e1e1b; /* Dark grey background color */
+}
+.about-sec img {
+    width: 300px; /* Reduced image width */
+    border: 5px solid #111010; /* Dark border */
+    border-radius: 5px;
+}
+
+.about-sec .about-txt p {
+    font-size: 16px; /* Reduced font size */
+    color: #242020; /* Light grey color */
+}
+
+/* Donation section styles */
+.don-sec {
+    background-color:#F5F5DC; /* Dark background color */
+    padding: 100px 0; /* Adjusted padding */
+}
+.don-sec h2{
+    color:black;
+}
+
+.don-sec .don-box {
+    margin: 50px auto; /* Center align */
+    background-color: #171414; /* Dark background color */
+    padding: 40px; /* Adjusted padding */
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #c4b9b900; /* Darker shadow */
+    transition: all 0.5s;
+}
+
+.don-sec .don-box img {
+    width: 60px; /* Reduced image width */
+    transition: all 0.5s;
+}
+
+.don-sec .don-box h3 {
+    margin: 15px 0 10px;
+    color: #fff;
+    
+}
+
+.don-sec .don-box p {
+    margin-bottom: 25px;
+    color: bisque; /* Light grey color */
+}
+
+.don-sec .don-box:hover img {
+    transform: scale(1.1);
+}
+
+/* Mission section styles */
+.mission {
+    padding: 100px 0; /* Adjusted padding */
+    background-color:#36454F; /* Dark grey background color */
+}
+
+/* Gallery section styles */
+.gallery-sec {
+    position: relative;
+    padding: 50px 0; /* Adjusted padding */
+}
+
+.gallery-sec .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.gallery-sec .image-container .image {
+    height: 200px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.gallery-sec .image-container .image img {
+    height: 100%;
+    width: 100%;
+    border: 5px solid #171414; /* Dark border */
+    object-fit: cover;
+    transition: 0.2s linear;
+}
+
+.gallery-sec .image-container .image:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-sec .pop-image {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.gallery-sec .pop-image span {
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #FFF;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.gallery-sec .pop-image img {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #FFF;
+    width: 750px;
+    object-fit: cover;
+}
+
+/* Contact Us section styles */
+.contact-section {
+    padding: 100px 0 80px; /* Adjusted padding */
+    background-color: #36454F;
+    color: black; /* Dark background color */
+}
+/* Conatact Us */
+.contact-section {
+    padding: 150px 0 80px;
+}
+
+.contact-section .contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-section .contact-form .form-control {
+    height: 50px;
+    border-radius: 5px;
+}
+
+.contact-section .contact-form textarea.form-control {
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.contact-section .contact-form .form-control:focus {
+    box-shadow: none;
+}
+
